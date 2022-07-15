@@ -8,7 +8,7 @@
 }
 body::after {
     content: "";
-    background: url("/images/sport-g953cfe38f_1920.jpg");
+    background: url("/gym-project/images/sport-g953cfe38f_1920.jpg");
     opacity: 0.5;
     top: 0;
     left: 0;
