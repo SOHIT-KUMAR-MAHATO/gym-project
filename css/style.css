@@ -1,0 +1,137 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+body
+{
+    background:url("/images/sport-g953cfe38f_1920.jpg");
+}
+.left
+{
+    display: inline-block;
+}
+.mid
+{
+   display: block;
+   width: 33%;
+   margin: 20px auto;
+   font-size: 20px;
+   
+}
+.mid ul li a{
+    text-decoration: none;
+}
+.mid ul li a:hover
+{
+    border-bottom: 2px solid rgb(168 245 184 / 82%);
+}
+.right
+{
+    position: absolute;
+    display: inline-block;
+    top: 5vh;
+    right: 34px;
+}
+.navbar
+{
+    display: inline;
+    position: relative;
+    top:-15vh;
+    list-style: none;
+}
+
+.navbar li
+{
+    position: relative;
+    display: inline-block;
+    padding: 8px 16px;
+}
+.left img 
+{
+    width: 130px;
+    height: 130px;
+    filter: invert(100%);
+    transform: rotate(-50deg);
+    margin-left: 20px;
+}
+.logo-name
+{
+    position: relative;
+    margin-left: 50px;
+    top: -20px;
+    line-height: 0px;
+    font-size: 20px;
+    font-weight: 700;
+    font-size: 21px;
+}
+.right input{
+    padding: 8px 16px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    color: black;
+    font-weight: 800;
+    font-size: 18px;
+    margin: 0px 4px;
+    height: 47px;
+}
+.right input:hover{
+    padding: 8px 16px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    background-color: rgb(168 245 184 / 82%);
+    font-weight: 800;
+    cursor: pointer;
+}
+.formgrp
+{
+    display: block;
+    position: relative;
+    width: 80%;
+    margin:auto;
+    top: -10vh;
+    left: 40px;
+    padding: 4px 35px;
+    box-sizing: border-box;
+    box-shadow: 2px solid white;
+}
+.formgrp input
+{
+    display: block;
+    margin: 20px 40px;
+    padding: 8px 16px;
+    width: 25%;
+    border-radius: 10px;
+    outline: none;
+    color: black;
+    text-align: center;
+    font-size: 15px;
+    border-bottom: rgb(168 245 184 / 82%);
+    font-weight: 600;
+}
+.formgrp input:hover{
+    border-bottom: 4px solid rgb(168 245 184 / 82%);
+    font-weight: 600;
+}
+#submit-btn
+{
+    cursor: pointer;
+    width: 25vh;
+    align-items: center;
+    margin-left: 12vh;
+    border: 1px solid rgb(168 245 184 / 82%);
+    font-family: 'Baloo Bhai 2', cursive;
+    margin-top: 8px;
+
+}
+#submit-btn:hover{
+    background-color: rgb(168 245 184 / 82%);
+    font-weight: 600;
+}
+#welcome
+{
+    position: relative;
+    left: 17vh;
+}

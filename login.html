@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="left">
+      <img src="/images/fitness-g262ad3e2f_1280.png" alt="">
+      <p class="logo-name">FitNeSs hUB</p>
+    </div>
+    <div class="mid">
+        <ul class="navbar">
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/aboutus.html">About Us</a></li>
+            <li><a href="/fitness-construct.html">Fitness Calculator</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+        
+    </div>
+    <div class="right">
+            <a href="/sign-up.html" target="_blank" rel="noopener noreferrer"><input type="button" value="Sign Up"></a>
+    </div>
+    <div class="formgrp">
+        <h1 id="welcome">Welcome !</h1>
+        <form action="#">
+            <input type="email" name="email" id="email" placeholder="Email Address" required> 
+            <input type="password" name="pass" id="pass" placeholder="Password" required>       
+            <input type="submit" value="Submit" id="submit-btn" onclick= validate();>
+        </form>
+        
+    </div>
+    <script>
+      function validate()
+{
+var empt = document.getElementById('email').value;
+var name = document.getElementById('pass').value;
+if (empt !=0 && name!=0)
+{
+alert('Fetching Your Details Please Wait .....');
+}
+else
+{
+    alert('Please Fill the Details');
+}
+}
+    </script>
+</body> 
+
+</html>

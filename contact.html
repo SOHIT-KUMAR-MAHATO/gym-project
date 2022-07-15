@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap" rel="stylesheet">
+</head>
+<style>
+    .formgrp input
+    {
+        position: relative;
+        left: 14vw;
+    }
+</style>
+<body>
+    <div class="left">
+      <img src="/images/fitness-g262ad3e2f_1280.png" alt="">
+      <p class="logo-name">FitNeSs hUB</p>
+    </div>
+    <div class="mid">
+        <ul class="navbar">
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/aboutus.html">About Us</a></li>
+            <li><a href="/fitness-construct.html">Fitness Calculator</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+        
+    </div>
+    <div class="right">
+            <a href="/login.html" target="_blank" rel="noopener noreferrer"><input type="button" value="Login"></a>
+            <a href="/sign-up.html" target="_blank" rel="noopener noreferrer"><input type="button" value="Sign Up"></a>
+    </div>
+    <div class="formgrp">
+        <h1 id="welcome">Fell Free To Share Your Email Address !</h1>
+        <form action="#" method="post" name="form1">
+            <input type="email" name="Email-Ph" id="Email_Ph" placeholder="Enter Your Email Address" required>
+        <input type="submit" value="Submit" id="submit-btn" onclick= validate();>
+        </form>
+        
+    </div>
+    <script>
+      function validate()
+{
+var empt = document.getElementById('Email_Ph').value;
+if (empt !=0)
+{
+alert('Thanks Our Team will Reach you soon !');
+}
+else
+{
+    alert('Please Fill the Details');
+}
+}
+    </script>
+</body>
+</html>

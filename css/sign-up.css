@@ -1,0 +1,34 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: 'Baloo Bhai 2', cursive;
+    
+}
+body
+{
+    background: url("/images/abs-g3ceb46ecb_1920.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    display: block;
+}
+#form-signup input
+{
+    position: relative;
+    margin-left: 70%;
+    margin-top: 20px;
+}
+#submit-btn
+{
+    position: relative;
+    left: 5%;
+    
+}
+#welcome
+{
+    position: relative;
+    float: right;
+    top: -30px;
+    left: -10%;   
+}
